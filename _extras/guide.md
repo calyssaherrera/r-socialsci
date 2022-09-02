@@ -68,6 +68,9 @@ Fast forward to today, there really are only a few mechanical reasons why <- is
 preferred over =. Assignment ranks higher in operator precedence than =.
 If you wish to perform variable assignment inside a function, <- is the only
 option.
+
+* Caution on reading the assignment arrow (<-), this operator consists of a symbol that resembles the "less than" comparison operator (<) and the subtraction symbol (-). As a good coding practice to reduce ambiguity between the logical statment, "x is less than negative 5", and the assignment of 5 to x, we use spaces. For instance, the logical expression is written as "x < -5" and for the assignment we write "x <- 5".
+
 * When going over the section on assignments, make sure to pause for at least 30
   seconds when asking "What do you think is the current content of the object
   `area_acres`? 123.5 or 6.175?". For learners with no programming experience,
